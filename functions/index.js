@@ -41,7 +41,7 @@ const SCIENCE_FACTS = new Set([
   'Sloths are a medium-sized mammal. There are two types of sloth: the two-toed sloth and the three-toed sloth.',
   'Sloths are part of the order Pilosa so they are related to anteaters and armadillos.',
   'Sloths are tree-dwelling animals, they are found in the jungles of Central and South America.',
-  "A sloth's body is usually 50 to 60 cm long. Skeletons of now extinct species of sloth suggest some varieties used to be as large as elephants.",
+  'A sloth\'s body is usually 50 to 60 cm long. Skeletons of now extinct species of sloth suggest some varieties used to be as large as elephants.',
   'Sloths have a four-part stomach that very slowly digests the tough leaves they eat, it can sometimes take up to a month for them to digest a meal. Digesting this diet means a sloth has very little energy left to move around making it one of the slowest moving animals in the world.',
   'In the wild, sloths live on average 10 - 16 years and in captivity over 30 years.',
   'Sloths are solitary creatures who only gather to mate.',
