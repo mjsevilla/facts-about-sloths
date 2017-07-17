@@ -7,7 +7,7 @@
   "author": "Mike Sevilla",
   "dependencies": {
     "actions-on-google": "^1.0.0",
-    "firebase-admin": "^4.2.1",
+    "firebase-admin": "^5.0.1",
     "firebase-functions": "^0.5.7"
   }
 }
