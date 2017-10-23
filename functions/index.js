@@ -1,4 +1,4 @@
-const App = new DialogflowApp({request: request, response: response});
+const App = require('actions-on-google').DialogflowApp;
 const functions = require('firebase-functions');
 
 // Dialogflow actions
