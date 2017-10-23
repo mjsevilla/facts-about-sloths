@@ -34,7 +34,11 @@ const FUN_FACTS = new Set([
   'After around nine hours of sleep, the sloth still doesn\'t make an attempt at getting friendly with others. The closest a sloth gets to social time is sleeping in the same tree with another sloth. Dude, same.',
   'After they are born, the babies aren\'t in a hurry to leave their mother. They ride around clinging to their mother\'s belly for several weeks after birth. Even after they stop dangling from their mother, little sloths stay by their mother\'s side for up to four years. How cute.',
   'Its scientific name, Bradypus, is Greek for "slow feet," which makes sense since it is the world\'s slowest animal.',
+  'A sloth has very little muscle: it has the lowest muscle to mass ratios of all mammals. So it cannot shiver to keep warm. Three-toed sloths warm up by basking in the sun (in a more open tree) but Two-toed sloths don’t appear to do this.',
+  'The sloth got its name from its slow movement. It is not lazy, just slow-moving!',
+  'Sloths love hanging around. Wink, wink.',
   'Because sloths don’t have incisors, they trim down leaves by smacking their firm lips together.',
+  'Some sloths can rotate the head 270 degrees. This is because they have more neck vertebrae than most mammals.',
 ]);
 
 const SCIENCE_FACTS = new Set([
@@ -49,6 +53,7 @@ const SCIENCE_FACTS = new Set([
   'The two-toed and three-toed sloths are very similar in appearance, except that the two-toed sloths grow a bit bigger. Though they are similar in form and function, it’s thought that it may be a case of parallel evolution that has caused this as they aren’t actually very closely related.',
   'Sloths spend almost all of their time in the trees of rainforests and almost always they hang upside down. According to a study carried out by Swansea University, they are able to do this because their internal organs are fixed to the rib cage to stop them weighing down on their lungs.',
   'Sloth mating takes only 5 seconds.',
+  'A sloth can tolerate larger changes in body temperature than any other mammal: from 74°F – 92°F. At night, its body temperature can drop by as much as 22°F to conserve energy. Its thick hairy coat helps conserve heat and it sleeps in a tight ball to stay warm.',
   'All mammals, except sloths and manatees, have the same number of neck vertebrae.',
   'Costa Rica has the world’s only Sloth orphanage.',
   'A few million years ago, there were aquatic sloths. Ancient ground sloths evolved denser bones, allowing them to dive into the water for seagrass.',
@@ -60,6 +65,7 @@ const SCIENCE_FACTS = new Set([
   'On average, sloths travel 41 yards per day—less than half the length of a football field!',
   'Sloths maintain a low body temperature of about 30-34 degrees Celsius (86-93 degrees Fahrenheit) and move in and out of shade to regulate their body temperature.',
   'Though not all sloths are endangered, some of the six species are threatened by habitat loss. Deforestation in the tropical forests of South and Central America jeopardize the trees sloths rely on for food and shelter. Please help to protect our beloved sloths.',
+  'A sloth has tiny ears and doesn’t hear very well. But it has great eyesight, a good sense of smell, and is sensitive to vibrations.',
 ]);
 
 const SLOTH_IMAGES = [
