@@ -1,14 +1,14 @@
-const App = require('actions-on-google').ApiAiApp;
+const App = new DialogflowApp({request: request, response: response});
 const functions = require('firebase-functions');
 
-// API.AI actions
+// Dialogflow actions
 const UNRECOGNIZED_DEEP_LINK = 'deeplink.unknown';
 const TELL_FACT = 'tell.fact';
 
-// API.AI parameter names
+// Dialogflow parameter names
 const CATEGORY_ARGUMENT = 'fact-category';
 
-// API.AI Contexts/lifespans
+// Dialogflow Contexts/lifespans
 const FACTS_CONTEXT = 'choose_fact-followup';
 const DEFAULT_LIFESPAN = 5;
 const END_LIFESPAN = 0;
@@ -281,7 +281,7 @@ exports.factsAboutSloths = functions.https.onRequest((request, response) => {
       return;
 
     } else {
-      // Conversation repair is handled in API.AI, but this is a safeguard
+      // Conversation repair is handled in Dialogflow, but this is a safeguard
       if (app.hasSurfaceCapability(app.SurfaceCapabilities.SCREEN_OUTPUT)) {
         app.ask(app.buildRichResponse()
           .addSimpleResponse(`Sorry, I didn't understand. ` +
